@@ -57,6 +57,8 @@ public class Sample02Rotation extends RelativeLayout {
                     case 5:
                         imageView.animate().rotationY(0);
                         break;
+                    default:
+                        break;
                 }
                 state++;
                 if (state == 6) {

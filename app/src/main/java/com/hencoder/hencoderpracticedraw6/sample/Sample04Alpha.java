@@ -45,6 +45,8 @@ public class Sample04Alpha extends RelativeLayout {
                     case 1:
                         imageView.animate().alpha(1);
                         break;
+                    default:
+                        break;
                 }
                 state++;
                 if (state == 2) {

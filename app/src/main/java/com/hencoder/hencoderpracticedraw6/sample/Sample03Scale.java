@@ -46,10 +46,12 @@ public class Sample03Scale extends RelativeLayout {
                         imageView.animate().scaleX(1);
                         break;
                     case 2:
-                        imageView.animate().scaleY(.5f);
+                        imageView.animate().scaleY(1.5f);
                         break;
                     case 3:
                         imageView.animate().scaleY(1);
+                        break;
+                    default:
                         break;
                 }
                 state++;

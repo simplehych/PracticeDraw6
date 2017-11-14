@@ -75,6 +75,8 @@ public class Sample01Translation extends RelativeLayout {
                             imageView.animate().translationZ(0);
                         }
                         break;
+                    default:
+                        break;
                 }
                 translationState++;
                 if (translationState == translationStateCount) {

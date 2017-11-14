@@ -73,6 +73,8 @@ public class Sample06Duration extends LinearLayout {
                     case 1:
                         imageView.animate().translationX(0).setDuration(duration);
                         break;
+                    default:
+                        break;
                 }
                 if (translationState < 1) {
                     translationState++;

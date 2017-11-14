@@ -37,6 +37,11 @@ public class Practice08ObjectAnimatorView extends View {
         paint.setTextAlign(Paint.Align.CENTER);
     }
 
+    public void setProgress(float progress) {
+        this.progress = progress;
+        invalidate();
+    }
+
     @Override
     public void onDraw(Canvas canvas) {
         super.onDraw(canvas);
